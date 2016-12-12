@@ -1257,6 +1257,14 @@ h2.agendaTitles {
   padding: 10px 10px 10px 14px;
 }
 
+#whatworks-sub a {
+	color: #17365d;
+}
+
+#whatworks-sub a:hover {
+	color: #fafafa;
+}
+
 #admin {
   color: #4c9fb2;
 }
