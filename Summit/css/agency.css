@@ -885,11 +885,11 @@ Flex Box Nav
 }
 
 .flex-boxes .flex-box:nth-child(5) {
-	border-top: 6px solid #CCC;
+	border-top: 6px solid #a013a0;
 }
 
 .flex-boxes .flex-box:nth-child(5):focus, .flex-boxes .flex-box:nth-child(5):hover {
-	background-color: rgba(204, 204, 204, 0.1);
+	background-color: rgba(160, 19, 160, 0.1);
 }
 
 .flex-boxes .flex-box:nth-child(6) {
