@@ -1365,3 +1365,65 @@ ul.exhibitors li:last-child{
 	margin-bottom: 15px;
 }
 /* ---------------END SUMMIT AGENDA----------------- */
+/* ---------------PUBLICATION ITEMS----------------- */
+.publication {
+  border-bottom: 1px solid rgba(51, 51, 51, 0.1);
+  display: table;
+  margin-bottom: 1.5em;
+  padding-bottom: 1em;
+  width: 75%;
+  margin: auto;
+}
+.publication .publication-image,
+.publication .publication-content {
+  display: table-cell;
+  vertical-align: middle;
+}
+.publication .publication-image {
+  padding-right: 1.4em;
+  text-align: center;
+}
+.publication .publication-image > i {
+  background: #0f506f;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  display: block;
+  height: auto;
+  max-width: none;
+  padding: 0.6em;
+}
+
+@media only screen and (max-width: 480px){
+	.publication .publication-image {
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 480px){
+	.under-btn {
+		display: none;
+	}
+}
+
+.publication-reverse-order .publication .publication-image {
+  padding-left: 10px;
+  padding-right: 0;
+}
+.publication .publication-content {
+  width: 100%;
+}
+.publication .publication-content h1 {
+  font-size: 1em;
+  margin: 0 0 0.5em 0;
+}
+.publication .publication-content p {
+  line-height: 1.5em;
+  margin-bottom: 0.5em;
+}
+.publication .publication-content p.publication-detail {
+  color: rgba(51, 51, 51, 0.5);
+  font-size: 0.9em;
+  font-style: italic;
+}
+/* ---------------END PUBLICATION ITEMS----------------- */
