@@ -48,6 +48,7 @@
 .publication .publication-content h1 {
   font-size: 1em;
   margin: 0 0 0.5em 0;
+  line-height: 1.5em;
 }
 .publication .publication-content p {
   line-height: 1.5em;

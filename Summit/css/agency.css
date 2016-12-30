@@ -1369,10 +1369,9 @@ ul.exhibitors li:last-child{
 .publication {
   border-bottom: 1px solid rgba(51, 51, 51, 0.1);
   display: table;
-  margin-bottom: 1.5em;
   padding-bottom: 1em;
-  width: 75%;
-  margin: auto;
+  width: 100%;
+  margin: 1.5em auto;
 }
 .publication .publication-image,
 .publication .publication-content {
@@ -1416,6 +1415,7 @@ ul.exhibitors li:last-child{
 .publication .publication-content h1 {
   font-size: 1em;
   margin: 0 0 0.5em 0;
+  line-height: 1.5em;
 }
 .publication .publication-content p {
   line-height: 1.5em;
