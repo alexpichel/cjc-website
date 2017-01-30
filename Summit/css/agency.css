@@ -847,6 +847,7 @@ Flex Box Nav
 	        flex: 2 2 22em;
 	margin: 0.4em;
 	padding: 2em 2em 3em 2em;
+	max-width: 350px;
 	text-decoration: none;
 	-webkit-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
