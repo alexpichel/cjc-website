@@ -759,6 +759,11 @@ a:hover.btn-new {
 Flex Box Nav
 ---------------------------- */
 
+/* IE Center Fix */
+#main-content #task-boxes .row {
+	-ms-flex-direction: column;
+}
+
 .flex-boxes {
 	-webkit-box-align: stretch;
 	    -ms-flex-align: stretch;
