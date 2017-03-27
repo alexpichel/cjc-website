@@ -909,6 +909,14 @@ Flex Box Nav
 	background-color: rgba(65, 119, 25, 0.1);
 }
 
+.flex-boxes .flex-box:nth-child(8) {
+	border-top: 6px solid #795548;
+}
+
+.flex-boxes .flex-box:nth-child(8):focus, .flex-boxes .flex-box:nth-child(8):hover {
+	background-color: rgba(121, 85, 72, 0.1);
+}
+
 .flex-boxes .flex-box img {
 	display: block;
 	height: 5em;
