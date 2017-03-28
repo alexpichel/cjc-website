@@ -760,7 +760,7 @@ Flex Box Nav
 ---------------------------- */
 
 /* IE Center Fix */
-#main-content #task-boxes .row {
+.ieContainer {
 	-ms-flex-direction: column;
 }
 
