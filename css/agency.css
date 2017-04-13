@@ -71,11 +71,11 @@ a:hover {
 }
 
 .or-btn, a[class~="ms-rteStyle-btn"], a[class~="ms-rteStyle-btnlarge"] {
-    background: #173a00;
+    background: #0f506f;
 }
 
 .or-btn:hover, a[class~="ms-rteStyle-btn"]:hover, a[class~="ms-rteStyle-btnlarge"]:hover {
-    background: #2b6d00;
+    background: #25779d;
 }
 
 .or-btn.blue {
