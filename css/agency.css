@@ -11,7 +11,7 @@ body {
     color: #444444;
 }
 
-div#logo {
+/*div#logo {
     width: 35%;
 }
 
@@ -19,7 +19,7 @@ div#logo {
     div#logo {
         color: red;
     }
-}
+}*/
 
 .clearfix {
     *zoom: 1;
@@ -496,25 +496,25 @@ Page Title Fixes
 Fix Hero Titles
 -------------------------------- */
 
-@media (min-width: 1201px) {
+/*@media (min-width: 1201px) {
     div#logo {
         width: 35%;
     }
-}
+}*/
 
-@media (min-width: 767px) and (max-width: 1200px) {
+/*@media (min-width: 767px) and (max-width: 1200px) {
     div#logo {
         width: 40%;
     }
-}
+}*/
 
-@media (max-width: 766px) {
+/*@media (max-width: 766px) {
     div#logo {
         width: 100%;
         margin: 0 auto;
         text-align: center !important;
     }
-}
+}*/
 
 
 /* ----------------------------------
