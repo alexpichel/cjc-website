@@ -108,6 +108,12 @@ header h1 {
   }
 }
 
+.timeline-header {
+  text-align: center;
+  color: #444;
+  font-size: 2.5em;
+}
+
 .cd-timeline-block {
   position: relative;
   margin: 2em 0;
