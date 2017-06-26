@@ -1623,12 +1623,18 @@ header h1 {
   margin-left: -12px;
   margin-top: -12px;
 }
-/*.cd-timeline-img.cd-blue {
+.cd-timeline-img.blue {
   background: #375e97;
 }
-.cd-timeline-img.cd-yellow {
+.cd-timeline-img.blue:hover {
+  background: #fff;
+}
+.cd-timeline-img.yellow {
   background: #ffbb00;
-}*/
+}
+.cd-timeline-img.yellow:hover {
+  background: #fff;
+}
 .cd-timeline-img.red {
   background: #fb6542;
 }
@@ -1636,6 +1642,28 @@ header h1 {
 .cd-timeline-img.red:hover {
   background: #fff;
 }
+.cd-timeline-img.green {
+  background: #008000;
+}
+
+.cd-timeline-img.green:hover {
+  background: #fff;
+}
+.cd-timeline-img.purple {
+  background: #B200FF;
+}
+
+.cd-timeline-img.purple:hover {
+  background: #fff;
+}
+.cd-timeline-img.orange {
+  background: #FF9C00;
+}
+
+.cd-timeline-img.orange:hover {
+  background: #fff;
+}
+
 
 @media only screen and (min-width: 1170px) {
   .cd-timeline-img {
@@ -1723,6 +1751,14 @@ header h1 {
   padding: 1em;
   box-shadow: 0 3px 0 #d7e4ed;
 }
+
+.cd-timeline-content.blue {
+    background: #0f506f;
+}
+.cd-timeline-content.yellow {
+    background: #facd2f;
+}
+
 .cd-timeline-content:after {
   content: "";
   display: table;
@@ -1800,9 +1836,9 @@ header h1 {
     position: absolute;
     width: 100%;
     left: 122%;
-    top: 6px;
-    font-size: 16px;
-    font-size: 1rem;
+    top: -7px;
+    font-size: 36px;
+    font-weight: 700;
   }
   .cd-timeline-block:nth-child(even) .cd-timeline-content {
     float: right;
@@ -1954,9 +1990,4 @@ header h1 {
     -o-transform: translateX(0);
     transform: translateX(0);
   }
-}
-
-.glyphicon {
-  font-size: 2.2em;
-  color: #ffffff;
 }
