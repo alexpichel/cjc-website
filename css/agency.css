@@ -112,8 +112,8 @@ a[href$='.avi'], a[href$='.mpg'], a[href$='.mp3'], a[href$='.wav'], a[href$='.og
 a[href$='.wma'], a[href$='.m4a'], a[href ^="aim:"], a[href ^="msnim:"], a[href ^="xmpp:"],
 a[href *="icq.com"], a[href *="edit.yahoo.com/config/send_webmesg?"], a[href ^="callto:"],
 a[href ^="skype:"], a[href ^="gg:"], a[href ^="mailto:"] {
-	padding-right: 0 !important;
-	background: none !important;
+    padding-right: 0 !important;
+    background: none !important;
 }*/
 
 .nav-list>li>a:hover {
@@ -1477,11 +1477,12 @@ html * {
   box-sizing: border-box;
 }
 
+input#gsc-i-id1 {
+    height: initial;
+}
+
 body {
   font-size: 100%;
-/*  font-family: "Droid Serif", serif;
-  color: #7f8c97;
-  background-color: #e9f0f5;*/
 }
 
 /*a {
@@ -1554,7 +1555,7 @@ header h1 {
   /* this is the vertical line */
   content: '';
   position: absolute;
-  top: 0;
+  /*top: 0;*/
   left: 18px;
   height: 100%;
   width: 4px;
@@ -1749,7 +1750,7 @@ header h1 {
   background: white;
   border-radius: 0.25em;
   padding: 1em;
-  box-shadow: 0 3px 0 #d7e4ed;
+  box-shadow: 0px 0px 20px 2px #d7e4ed;
 }
 
 .cd-timeline-content.blue {
@@ -1801,7 +1802,7 @@ header h1 {
   height: 0;
   width: 0;
   border: 7px solid transparent;
-  border-right: 7px solid white;
+  /*border-right: 7px solid white;*/
 }
 @media only screen and (min-width: 768px) {
   .cd-timeline-content h2 {
@@ -1823,12 +1824,12 @@ header h1 {
     padding: 1.6em;
     width: 45%;
   }
-  .cd-timeline-content::before {
+/*  .cd-timeline-content::before {
     top: 24px;
     left: 100%;
     border-color: transparent;
     border-left-color: white;
-  }
+  }*/
   .cd-timeline-content .cd-read-more {
     float: left;
   }
@@ -1843,13 +1844,13 @@ header h1 {
   .cd-timeline-block:nth-child(even) .cd-timeline-content {
     float: right;
   }
-  .cd-timeline-block:nth-child(even) .cd-timeline-content::before {
+/*  .cd-timeline-block:nth-child(even) .cd-timeline-content::before {
     top: 24px;
     left: auto;
     right: 100%;
     border-color: transparent;
     border-right-color: white;
-  }
+  }*/
   .cd-timeline-block:nth-child(even) .cd-timeline-content .cd-read-more {
     float: right;
   }
