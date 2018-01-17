@@ -852,67 +852,75 @@ Flex Box Nav
 }
 
 .flex-boxes .flex-box:nth-child(1) {
-    border-top: 6px solid tomato;
+    border-top: 6px solid #F25F5C;
 }
 
 .flex-boxes .flex-box:nth-child(1):focus, .flex-boxes .flex-box:nth-child(1):hover {
-    background-color: rgba(255, 99, 71, 0.1);
+    background-color: rgba(242, 95, 92, 0.1);
 }
 
 .flex-boxes .flex-box:nth-child(2) {
-    border-top: 6px solid #72BFBF;
+    border-top: 6px solid #247BA0;
 }
 
 .flex-boxes .flex-box:nth-child(2):focus, .flex-boxes .flex-box:nth-child(2):hover {
-    background-color: rgba(114, 191, 191, 0.1);
+    background-color: rgba(36, 123, 160, 0.1);
 }
 
 .flex-boxes .flex-box:nth-child(3) {
-    border-top: 6px solid #92B1E3;
+    border-top: 6px solid #FFE066;
 }
 
 .flex-boxes .flex-box:nth-child(3):focus, .flex-boxes .flex-box:nth-child(3):hover {
-    background-color: rgba(146, 177, 227, 0.1);
+    background-color: rgba(255, 224, 102, 0.1);
 }
 
 .flex-boxes .flex-box:nth-child(4) {
-    border-top: 6px solid #E3D743;
+    border-top: 6px solid #f18F01;
 }
 
 .flex-boxes .flex-box:nth-child(4):focus, .flex-boxes .flex-box:nth-child(4):hover {
-    background-color: rgba(227, 215, 67, 0.1);
+    background-color: rgba(241, 143, 1, 0.1);
 }
 
 .flex-boxes .flex-box:nth-child(5) {
-    border-top: 6px solid #a013a0;
+    border-top: 6px solid #231123;
 }
 
 .flex-boxes .flex-box:nth-child(5):focus, .flex-boxes .flex-box:nth-child(5):hover {
-    background-color: rgba(160, 19, 160, 0.1);
+    background-color: rgba(35, 17, 35, 0.1);
 }
 
 .flex-boxes .flex-box:nth-child(6) {
-    border-top: 6px solid #F6C05C;
+    border-top: 6px solid #3EC300;
 }
 
 .flex-boxes .flex-box:nth-child(6):focus, .flex-boxes .flex-box:nth-child(6):hover {
-    background-color: rgba(246, 192, 92, 0.1);
+    background-color: rgba(62, 195, 0, 0.1);
 }
 
 .flex-boxes .flex-box:nth-child(7) {
-    border-top: 6px solid #417719;
+    border-top: 6px solid #50514F;
 }
 
 .flex-boxes .flex-box:nth-child(7):focus, .flex-boxes .flex-box:nth-child(7):hover {
-    background-color: rgba(65, 119, 25, 0.1);
+    background-color: rgba(80, 81, 79, 0.1);
 }
 
 .flex-boxes .flex-box:nth-child(8) {
-    border-top: 6px solid #795548;
+    border-top: 6px solid #8C5383;
 }
 
 .flex-boxes .flex-box:nth-child(8):focus, .flex-boxes .flex-box:nth-child(8):hover {
-    background-color: rgba(121, 85, 72, 0.1);
+    background-color: rgba(140, 83, 131, 0.1);
+}
+
+.flex-boxes .flex-box:nth-child(9) {
+    border-top: 6px solid #70c1b3;
+}
+
+.flex-boxes .flex-box:nth-child(9):focus, .flex-boxes .flex-box:nth-child(9):hover {
+    background-color: rgba(112, 193, 179, 0.1);
 }
 
 .flex-boxes .flex-box img {
